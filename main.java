@@ -19,14 +19,14 @@ public class main {
             }
         }
         if (ay == 2) {
-            if (gun < 19) {
+            if (gun < 20) {
                 System.out.print("Kova burcusunuz");
             } else {
                 System.out.print("Balık burcusunuz");
             }
         }
         if (ay == 3) {
-            if (gun < 21) {
+            if (gun <= 21) {
                 System.out.print("Balık burcusunuz");
             } else {
                 System.out.print("Koç burcusunuz");
@@ -40,7 +40,7 @@ public class main {
             }
         }
         if (ay == 5) {
-            if (gun < 21) {
+            if (gun <= 21) {
                 System.out.print("Boğa burcusunuz");
             } else {
                 System.out.print("İkizler burcusunuz");
@@ -54,14 +54,14 @@ public class main {
             }
         }
         if (ay == 7) {
-            if (gun < 22){
+            if (gun <= 22){
                 System.out.print("Yengeç burcusunuz");
             } else {
                 System.out.print("Aslan burcusunuz");
             }
         }
         if (ay == 8) {
-            if (gun < 23){
+            if (gun <= 23){
                 System.out.print("Aslan burcusunuz");
             } else {
                 System.out.print("Başak burcusunuz");
